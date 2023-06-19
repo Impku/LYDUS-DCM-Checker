@@ -10,10 +10,15 @@ Scripts for checking the DCM header and evaluating the integrity and accuracy of
  in the test. 
  - If a score of dicom file is lower then 90, this DICOM file may cause 
  trouble to your research.
+
+[![Video](Media/screenshot2.png)](Media/DCM-checker.mp4 "Video") 
  
- This program made by Yonsei Boncentricq Team
+ This program made by `Yonsei Boncentricq Team`
 
 ## DCM Headers
+- For X-ray images, 21 of the 250 dicom headers were selected as search criteria for both clinical and technical uses. 
+- The 21 selected Labels were confirmed by experienced clinicians and radiologists
+
 |   No.  |   DCM_Attribute  |   Attribute Name              |   sampe1            |   sample2                     |
 |--------|------------------|-------------------------------|---------------------|-------------------------------|
 |   1    |   0018\|1147     |   Field of View Shape         |   RECTANGLE         |   RECTANGLE                   |
